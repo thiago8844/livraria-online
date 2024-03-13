@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fale Conosco</title>
+
+    <link rel="stylesheet" href="faleconosco.css" />
+  </head>
+  <body>
+    
+    <span class="voltar"> <a href="index.html">< Voltar</a> </span>
+    <form action="">
+      <fieldset>
+        <legend>Fale Conosco</legend>
+        <div class="form-box">
+          <label for="nome">Nome completo:</label>
+          <input
+            name="nome"
+            type="text"
+            placeholder="Digite seu nome completo:"
+            value=""
+          />
+        </div>
+        <div class="form-box">
+          <label for="email">Email:</label
+          ><input
+            name="email"
+            id="email"
+            type="email"
+            autocomplete="on"
+            placeholder="Digite seu email"
+            value=""
+          />
+        </div>
+
+        <div class="form-box">
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="radio-box">
+            <p>Motivo do Contato:</p>
+            <input type="radio" name="motivo" value="HTML">
+            <label for="html">Elogio</label><br>
+            <input type="radio" name="motivo" value="CSS">
+            <label for="css">Crítica</label><br>
+            <input type="radio" name="motivo" value="JavaScript">
+            <label for="javascript">Sugestão</label><br>
+            <input type="radio" name="motivo" value="outro">
+            <label for="outro">Outro</label>
+
+
+        </div>
+      </fieldset>
+
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>

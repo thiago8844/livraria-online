@@ -1,0 +1,59 @@
+.book-list-container {
+  width: 80%;
+  margin: 72px auto;
+  background-color: white;
+  padding: 72px 64px;
+  -webkit-box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  border-radius: 3px;
+  position: relative;
+}
+
+.book-list-container h1 {
+  text-align: center;
+  margin-bottom: 72px;
+}
+.voltar {
+  position: absolute;
+  font-size: 24px;
+}
+.voltar a {
+  text-decoration: none;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+thead {
+  background: rgb(77, 1, 1);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}

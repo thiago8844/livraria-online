@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(93, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(93, 0, 0, 1) 0%,
+    rgba(170, 0, 12, 1) 51%,
+    rgba(185, 0, 0, 1) 100%
+  );
+}
+
+main {
+  width: 80%;
+  margin: 72px auto;
+  background-color: white;
+  padding: 72px 64px;
+  -webkit-box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  border-radius: 3px;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+main img {
+  margin: 0 auto;
+  display: block;
+  width: 400px;
+  margin-bottom: 72px;
+}
+
+main .info1 {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  margin-bottom: 24px;
+}
+
+main .info1 div {
+  display: flex;
+  flex-direction: column;
+}
+
+main .info1 h3, .info2 h3 {
+  background-color: rgb(114, 2, 2);
+  color: white;
+  padding: 12px;
+}
+
+main .info1 span{
+  padding: 10px;
+}
+
+main .info2 p {
+  padding: 24px;
+  text-align: left;
+  line-height: 24px;
+}
+
+main .info2 {
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  margin-bottom: 24px;
+}

@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #5d0000;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 0, 0, 1) 0%,
+    rgba(170, 0, 12, 1) 51%,
+    rgba(185, 0, 0, 1) 100%
+  );
+  position: relative;
+}
+
+.voltar {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.voltar a{
+
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.voltar a:hover {
+  color: rgb(250, 240, 240);
+}
+
+.voltar a:visited {
+
+  text-decoration: none;
+}
+
+fieldset {
+  width: 50%;
+  margin: 82px auto;
+  margin-bottom: 32px;
+  padding: 25px;
+  position: relative;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+fieldset legend {
+  color: white;
+  padding: 0 10px;
+  font-size: 24px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.form-box input {
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 6px #0000001c;
+  outline: none;
+}
+.form-box textarea {
+  margin-top: 6px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 6px #0000001c;
+  outline: none;
+}
+
+.radio-box {
+  color: white;
+}
+
+.radio-box p {
+  margin-bottom: 12px;
+}
+
+form button {
+  display: block;
+  margin: 0 auto;
+
+  padding: 8px 16px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background-color: #1f0000;
+  border: none;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
+  transition: 0.35s;
+}
+
+form button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+
+}
