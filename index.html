@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mundo dos Livros</title>
 
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
+
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -26,6 +29,12 @@
           />
         </svg>
       </h1>
+
+      <div class="carousel-container">
+        <div><img src="imagens-carrossel/62f79e97-17bb-4e69-9608-6bc580f9d1b5___f15e558a8490f37be090baadcfb49f93.png" alt=""></div>
+        <div><img src="imagens-carrossel/d2951a33-6fe5-42ff-8215-6bd317f7c508___59c9ed7fd0c623c0d914eb3685c1a30b.webp" alt=""></div>
+        <div><img src="imagens-carrossel/e8d97f96-d8c8-42c4-a70a-a4e7ad275dec___c224608e648b88a4171daef53640fdde.webp" alt=""></div>
+      </div>
 
       <p class="main-description">
         Bem-vindo a Mundo dos Livros! Explore nosso universo de livros
@@ -51,5 +60,25 @@
       </div>
     </main>
     <p class="copyright">© Thiago Lucas Tolentino Machado 09/03/2024</p>
+    <script src="index.js"></script>
+
+    <!-- Slick Slider-->
+    <script
+      type="text/javascript"
+      src="jquery2.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="jquery1.js"
+    ></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".carousel-container").slick({
+          
+        });
+      });
+    </script>
   </body>
 </html>

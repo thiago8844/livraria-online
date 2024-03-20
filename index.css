@@ -19,7 +19,10 @@ body {
   height: 100vh;
 }
 
-
+.carousel-container img {
+  object-fit: cover;
+  margin-bottom: 32px;
+}
 .copyright  {
   color: white;
 }
