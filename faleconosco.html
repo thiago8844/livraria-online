@@ -10,7 +10,7 @@
   <body>
     
     <span class="voltar"> <a href="index.html">< Voltar</a> </span>
-    <form action="">
+    <form id="f" action="">
       <fieldset>
         <legend>Fale Conosco</legend>
         <div class="form-box">
@@ -20,6 +20,7 @@
             type="text"
             placeholder="Digite seu nome completo:"
             value=""
+            required
           />
         </div>
         <div class="form-box">
@@ -31,17 +32,19 @@
             autocomplete="on"
             placeholder="Digite seu email"
             value=""
+            required
           />
         </div>
 
         <div class="form-box">
             <label for="mensagem">Mensagem:</label>
-            <textarea name="mensagem" id="" cols="30" rows="10"></textarea>
+            <textarea name="mensagem" id="" cols="30" rows="10" required></textarea>
+            
         </div>
 
         <div class="radio-box">
             <p>Motivo do Contato:</p>
-            <input type="radio" name="motivo" value="HTML">
+            <input checked type="radio" name="motivo" value="HTML">
             <label for="html">Elogio</label><br>
             <input type="radio" name="motivo" value="CSS">
             <label for="css">Crítica</label><br>
@@ -54,7 +57,8 @@
         </div>
       </fieldset>
 
-      <button>Enviar</button>
+      <button type="submit">Enviar</button>
     </form>
+    <script src="faleconosco.js"></script>
   </body>
 </html>

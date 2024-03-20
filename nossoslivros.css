@@ -31,7 +31,10 @@ table {
   -moz-box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 35px -11px rgba(0, 0, 0, 0.75);
 }
-
+table tr:hover .message-area {
+  visibility: visible;
+  background-color: blue;
+}
 thead th:nth-child(1) {
   width: 30%;
 }
@@ -56,4 +59,25 @@ thead {
   background: rgb(77, 1, 1);
   color: white;
   text-shadow: 1px 1px 1px black;
+}
+
+.message-area {
+  height: 400px;
+  font-size: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 190px;
+  gap: 16px;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.message-area .author {
+  color: white;
+  align-self: flex-end;
+  margin-right: 300px;
 }
